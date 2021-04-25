@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* comienza el mobile firts */
+
+header {
+  width: 100vw;
+  height: 89px;
+  background-color: #008f95;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+header nav {
+  position: absolute;
+  overflow: hidden;
+  top: 85px;
+  right: 0;
+  height: 100%;
+  width: 0;
+  background-color: #008f95;
+  transition: 0.3s ease-in-out;
+}
+
+header nav ol {
+  list-style: none;
+  line-height: 50px;
+  display: flex;
+  flex-direction: column;
+  margin: 20%;
+}
+
+header nav ol li a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+.mostrar {
+  width: 100%;
+}
+
+.menu-toggle {
+  background-color: none;
+  color: none;
+  border: none;
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+/* termina mobile first */
+
+@media screen and (min-width:768px){
+    .menu-toggle{
+      display: none;
+    }
+  header nav{
+    background-color: red;
+    width: 80%;
+    position: relative;
+    top: 0;
+  }
+    header nav ol {
+        flex-direction: row;
+
+    }
+    }
