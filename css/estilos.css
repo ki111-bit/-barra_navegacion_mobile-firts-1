@@ -35,16 +35,21 @@ header nav {
 
 header nav ol {
   list-style: none;
-  line-height: 50px;
+  /*line-height: 50px;*/
   display: flex;
   flex-direction: column;
-  margin: 20%;
+  /*margin: 20%;*/
+  margin-left: 20%;
+}
+header nav ol li{
+  line-height: 100px;
 }
 
 header nav ol li a {
   text-decoration: none;
   color: black;
   text-transform: uppercase;
+  color: #fff;
 }
 
 .mostrar {
@@ -66,13 +71,18 @@ header nav ol li a {
       display: none;
     }
   header nav{
-    background-color: red;
+    /*background-color: red;*/
     width: 80%;
     position: relative;
     top: 0;
   }
     header nav ol {
         flex-direction: row;
-
+        align-items: center;
+        height: 89px;
+        justify-content: flex-end;
+    }
+    header nav ol li{
+      padding:  30px;
     }
     }
