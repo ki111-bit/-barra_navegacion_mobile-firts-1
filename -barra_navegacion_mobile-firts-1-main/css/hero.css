@@ -1,0 +1,151 @@
+.hero{
+    /* background-color: red; */
+    margin: 0 auto;
+    /* max-width: 90vw; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hero .person{
+    width: 100%;
+}
+
+.hero .perfil{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.hero .perfil h1{
+    font-size: 49px;
+    font-weight: 700;
+    font-family: oxygen;
+}
+
+.hero .perfil h1 span{
+    font-size: 59px;
+}
+
+.hero .perfil p{
+    font-family: oxygen;
+    font-weight: 400;
+}
+.hero .perfil div{
+    padding-top: 16px;
+}
+.hero .perfil div b{
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    font-family: oxygen;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.texto{
+    margin: 0 auto;
+    padding-top: 51px;
+    font-family: oxygen;
+    font-weight: 400;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.texto h3{
+    padding-top: 24px;
+    font-weight: 700;
+}
+
+.flecha{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    padding-top: 24px;
+}
+
+
+
+.person2{
+    font-family: oxygen;
+    margin: 0 auto;
+/*     max-width: 90vw; */
+
+}
+
+
+
+.titulo a{
+    font-size: 18px;
+    font-weight:700;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgba(66, 226, 184, 1);
+}
+
+
+.person2 p{
+    padding-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.git{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.botones1 {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+}
+
+.botones2{
+    text-align: justify;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+.caja{
+    font-family: oxygen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caja img{
+    width: 74px;
+    height: 74px;
+    margin: 0 10px ;
+}
+
+.caja p{
+    margin: 24px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.caja span{
+    color: #0F0A0A;
+    opacity: 0.5;
+    line-height: 19px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 24px;
+}
+
