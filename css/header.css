@@ -1,11 +1,11 @@
 
 .header{
-/*   background-color: red; */
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-around;
+  align-items:center;
   width: 360px;
   height: 81px;
+
 }
 
 .cv{
@@ -24,7 +24,32 @@ text-decoration: none;
 color: rgba(15, 10, 10, 1);
 text-transform: uppercase;
 }
+.navegacion{
+  display: none;
+  padding: 20px;
+  margin: 1px;
+ /*  background-color: blue; */
+  
+}
 
+.lista{
+  display: flex;
+  margin: 1px;
+  list-style: none;
+  text-decoration: none;
+  justify-content: space-between;
+  margin: 40px;
+}
+
+.lista li a{
+  color: black;
+  text-decoration: none;
+  padding: 40px;
+  font-family: Oxygen;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform:uppercase ;
+}
 .logo{
   font-family: Poppins;
   font-weight: 900;
@@ -32,4 +57,5 @@ text-transform: uppercase;
   margin-left: 20px;
   margin-right: 20px;
 }
+
 

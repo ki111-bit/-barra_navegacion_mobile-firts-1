@@ -149,3 +149,30 @@
     margin: 24px;
 }
 
+
+@media screen and (min-width: 768px){
+    .header{
+        padding: 0px 495px;
+    }
+    .header .navegacion{
+        padding: 270px;
+    }
+
+    .hero{
+        flex-direction: row;
+    }
+    .hero .perfil{
+        justify-content: center;
+    }
+
+    .hero .person{
+        display: flex;
+        order: 1;
+        justify-content: end;
+    }
+
+    header .navegacion{
+        display: block;
+
+    }
+}
